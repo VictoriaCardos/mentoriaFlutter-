@@ -14,5 +14,12 @@ main() {
       print("Amigo estou aqui!");
     }
   }
-  print('Fim do loop ;)');
+  print('Fim do primeiro loop ;)');
+
+  var notas = [5.5, 8.5, 7.4, 3.9];
+
+  for (var nota in notas) {
+    print("O valor da nota é: $nota");
+  }
+  print('Fim do segundo loop ;)');
 }
